@@ -7,7 +7,9 @@ Hello,
 Please follow these instructions to execute the Python script "jcf-image4x.py" using the critical command-line arguments below:
 
 "-i" denotes the path to the low-resolution image for enhancement.
+
 "-o" signifies the location where the enhanced high-resolution image will be saved.
+
 "-model" is the path to the trained ESRGAN model.
 
 To use this tool on your Linux environment, execute the following commands:
