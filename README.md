@@ -27,7 +27,7 @@ Hello,
 
 3. Run the command below from this directory to generate a high-resolution image (this is a sample command):
 
-   $ python3 jcf-esrgan4x.py -i "./input-images/lr_bicubic_0853.png" -o "./output-images/hr_esrgan_0853.png" -model "./model-esrgan/esrgan_generator34_56_19.pth"
+   $ python3 ./jcf-esrgan4x.py -i "./input-images/lr_bicubic_0853.png" -o "./output-images/hr_esrgan_0853.png" -model "./model-esrgan/esrgan_generator34_56_19.pth"
 
 # Important Reminders:
 
