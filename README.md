@@ -17,7 +17,7 @@ $ git clone https://github.com/jcferaud/JCF-Super-Resolution.git
 $ cd JCF-Super-Resolution
 $ cat ./model-esrgan/xa* > ./model-esrgan/esrgan_generator34_56_19.pth
 
-# 3. run the following command to generate a high-resolution image from this directory:
+# 3. run the following command to generate a high-resolution image from this directory (sample):
 $ python3 jcf-esrgan4x.py -i "./input-images/lr_bicubic_0853.png" -o "./output-images/hr_esrgan_0853.png" -model "./model-esrgan/esrgan_generator34_56_19.pth"
 
 # Reminder:
