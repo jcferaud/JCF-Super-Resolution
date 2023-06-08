@@ -1,27 +1,29 @@
 # Super-Resolution
 Super-Resolution Based on ESRGAN model
 
-Hi,
 
-# You are required to run the Python script "jcf-image4x.py" with the following three essential arguments:
-• "-i": This specifies the path of the low-resolution image that needs enhancement.
-• "-o": This designates where the enhanced high-resolution image will be saved.
-• "-model": This is the location of the ESRGAN model after it has been trained.
+Hello,
 
-# To test this tool on your linux box, you need to run the following commands:
+Please follow these instructions to execute the Python script "jcf-image4x.py" using the critical command-line arguments below:
 
-# 1. clone the Git Code
+"-i" denotes the path to the low-resolution image for enhancement.
+"-o" signifies the location where the enhanced high-resolution image will be saved.
+"-model" is the path to the trained ESRGAN model.
+
+To use this tool on your Linux environment, execute the following commands:
+
+1. Clone the GitHub repository:
 $ git clone https://github.com/jcferaud/JCF-Super-Resolution.git
 
-# 2. recreate the esrgan .pth file
+2. Recreate the ESRGAN .pth file by navigating to the JCF-Super-Resolution directory and running:
 $ cd JCF-Super-Resolution
 $ cat ./model-esrgan/xa* > ./model-esrgan/esrgan_generator34_56_19.pth
 
-# 3. run the following command to generate a high-resolution image from this directory (sample):
+3. Run the command below from this directory to generate a high-resolution image (this is a sample command):
 $ python3 jcf-esrgan4x.py -i "./input-images/lr_bicubic_0853.png" -o "./output-images/hr_esrgan_0853.png" -model "./model-esrgan/esrgan_generator34_56_19.pth"
 
-# Reminder:
-- Ensure to reconstruct the file esrgan_generator34_56_19.pth before running the script (refer to readme.md in the model-esrgan directory for more details).
-- Ensure that you have installed the needed libraries which includes torch and torchvision 
+Important Reminders:
 
-Best regards
+Make sure to rebuild the esrgan_generator34_56_19.pth file before running the script. More details can be found in the readme.md file in the model-esrgan directory.
+Verify that all necessary libraries, including torch and torchvision, are installed.
+Best regards.
