@@ -23,5 +23,5 @@ $ python3 jcf-esrgan4x.py -i "./input-images/lr_bicubic_0853.png" -o "./output-i
 # Reminder:
 - Ensure to reconstruct the file esrgan_generator34_56_19.pth before running the script (refer to readme.md in the model-esrgan directory for more details).
 - Ensure that you have installed the needed libraries which includes torch and torchvision 
--
+
 Best regards
