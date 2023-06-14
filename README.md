@@ -4,7 +4,7 @@ Super-Resolution Based on ESRGAN model
 
 Hello,
 
-# Please follow these instructions to execute the Python script "jcf-esrgan4x.py" using the critical command-line arguments below:
+# Please follow these instructions to execute the Python script "jcf-esrgan4x.py" using the mandatory command-line arguments below:
 
 "-i" denotes the path to the low-resolution image for enhancement.
 
@@ -31,9 +31,8 @@ Hello,
 
 # Important Reminders:
 
-Make sure to rebuild the esrgan_generator35_56_45.pth file before running the script. More details can be found in the readme.md file in the model-esrgan directory.
+Make sure to rebuild the esrgan_generator35_56_45.pth file before running the above command. More details can be found in the readme.md file in the model-esrgan directory.
 
 Verify that all necessary libraries, including torch and torchvision, are installed.
-
 
 Best regards.
