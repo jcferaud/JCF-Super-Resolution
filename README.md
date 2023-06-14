@@ -31,7 +31,7 @@ Hello,
 
 # Important Reminders:
 
-Make sure to rebuild the esrgan_generator34_56_19.pth file before running the script. More details can be found in the readme.md file in the model-esrgan directory.
+Make sure to rebuild the esrgan_generator35_56_45.pth file before running the script. More details can be found in the readme.md file in the model-esrgan directory.
 
 Verify that all necessary libraries, including torch and torchvision, are installed.
 
