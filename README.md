@@ -4,7 +4,7 @@ Super-Resolution Based on ESRGAN model
 
 Hello,
 
-# Please follow these instructions to execute the Python script "jcf-image4x.py" using the critical command-line arguments below:
+# Please follow these instructions to execute the Python script "jcf-esrgan4x.py" using the critical command-line arguments below:
 
 "-i" denotes the path to the low-resolution image for enhancement.
 
