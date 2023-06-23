@@ -33,8 +33,6 @@ Hello,
 
 Make sure to rebuild the esrgan_generator35_56_45.pth file before running the above command. More details can be found in the readme.md file in the model-esrgan directory.
 
-Make sure also to install the required libraries listed in the requirements.txt file
-
-Verify that all necessary libraries, including torch and torchvision, are installed.
+Make sure also to install the required libraries listed in the requirements.txt file.
 
 Best regards.
